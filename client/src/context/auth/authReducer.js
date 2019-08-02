@@ -8,7 +8,6 @@ import {
   LOGOUT,
   CLEAR_ERRORS
 } from '../types';
-import { access } from 'fs';
 
 export default (state, action) => {
   switch (action.type) {
@@ -31,6 +30,7 @@ export default (state, action) => {
     case REGISTER_FAIL:
     case AUTH_ERROR:
     case LOGIN_FAIL:
+    case LOGOUT:
       localStorage.removeItem('token');
       return {
         ...state,
