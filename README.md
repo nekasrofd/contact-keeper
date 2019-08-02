@@ -37,7 +37,7 @@ application will run on localhost:5000<br />
 
 ## In Progress
 
-Redo the UI/UX for application<br />
+Clear contact form after edit request
 
 ## Known Bugs
 
