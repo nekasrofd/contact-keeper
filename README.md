@@ -4,7 +4,8 @@ This is a contact keeper application that allows users to sign up for an account
 
 ## View the application
 
-View the application at https://intense-depths-64881.herokuapp.com/login
+View the application at https://contacts.justinteng.com<br/>
+Wait a little bit for it to load, Heroku has to reboot the application after a certain amount of inactivity.
 
 Login with
 test@gmail.com
@@ -14,13 +15,13 @@ or create your own account. The e-mail does not have to be real.
 
 ## Purpose
 
-I wanted to understand the MERN stack better and decided to build this application to better understand how everything works together.
+I wanted to build an application that would help me understand the MERN stack. I also wanted to create an application with authentication, form validation, and relational mapping between data.
 
 ## Technologies
 
 React for the front-end<br />
 Express and Node.js for the back-end<br />
-MongoDB for the database<br />
+MongoDB for the database (hosted on MongoDB atlas) <br />
 bcrypt to hash passwords<br />
 
 ## Installing the app
@@ -33,12 +34,13 @@ application will run on localhost:5000<br />
 
 ## Versions
 
+1.0.1 - Fixed bugs <br />
 1.0.0 - Released onto Heroku<br />
 
 ## In Progress
 
-Clear contact form after edit request
+Adding a notes section to each contact
 
 ## Known Bugs
 
-Fix edit contact form bug, doesn't update form after request to server
+None
