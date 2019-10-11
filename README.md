@@ -4,7 +4,7 @@ This is a contact keeper application that allows users to sign up for an account
 
 ## View the application
 
-View the application at https://contacts.justinteng.com<br/>
+View the application at https://intense-depths-64881.herokuapp.com<br/>
 Wait a little bit for it to load, Heroku has to reboot the application after a certain amount of inactivity.
 
 Login with

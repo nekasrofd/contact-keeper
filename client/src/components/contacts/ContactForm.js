@@ -6,6 +6,13 @@ const ContactForm = () => {
 
   const { addContact, updateContact, clearCurrent, current } = contactContext;
 
+  const [contact, setContact] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    type: 'personal'
+  });
+
   useEffect(() => {
     if (current !== null) {
       setContact(current);
@@ -18,13 +25,6 @@ const ContactForm = () => {
       });
     }
   }, [contactContext, current]);
-
-  const [contact, setContact] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    type: 'personal'
-  });
 
   const { name, email, phone, type } = contact;
 
@@ -85,15 +85,15 @@ const ContactForm = () => {
         value='personal'
         checked={type === 'personal'}
         onChange={onChange}
-      />{' '}
-      Personal{' '}
+      />
+      Personal
       <input
         type='radio'
         name='type'
         value='professional'
         checked={type === 'professional'}
         onChange={onChange}
-      />{' '}
+      />
       Professional
       <div>
         <input
