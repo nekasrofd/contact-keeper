@@ -13,6 +13,10 @@ test@gmail.com
 
 or create your own account. The e-mail does not have to be real.
 
+## Demo
+
+![Contact Keeper Demo](demo/contactkeeper.gif)
+
 ## Purpose
 
 I wanted to build an application that would help me understand the MERN stack. I also wanted to create an application with authentication, form validation, and relational mapping between data.
